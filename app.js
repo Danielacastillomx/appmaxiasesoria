@@ -173,7 +173,7 @@ function goPrev() {
 function renderStep1() {
   const div = document.createElement('div');
   div.innerHTML = `
-    <img src="logo.jpg" onerror="this.onerror=null; this.src='logo.jpeg';" alt="Maxi Gafas" style="max-width: 200px; margin: 0 auto 16px auto; display: block;">
+    <img src="logo.jpeg.jpeg" onerror="this.onerror=null; this.src='logo.jpeg';" alt="Maxi Gafas" style="max-width: 200px; margin: 0 auto 16px auto; display: block;">
     <h2 class="main-title">Asesoría Virtual</h2>
     <p class="subtitle">Registra tus datos y conoce cuál es la mejor alternativa visual para ti</p>
     <div class="form-group">
