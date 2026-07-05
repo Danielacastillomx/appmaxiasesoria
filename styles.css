@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
 
 :root {
   /* Blue background with white card */
-  --bg-color: #1252aa; 
-  --card-bg: #ffffff; 
-  --card-border: #e5e7eb;
+  --bg-color: #1A4B82; 
+  --card-bg: #FFFFFF; 
+  --card-border: #D1E1F0;
   
-  --text-main: #1f2937;
-  --text-muted: #4b5563; /* Un gris un poquito más oscuro */
+  --text-main: #333333;
+  --text-muted: #666666; 
   
-  --primary-color: #3b82f6; /* The strong blue tone they like */
-  --primary-hover: #0a3d8c;
+  --primary-color: #1A4B82; 
+  --primary-hover: #2974C4;
   
-  --border-color: #d1d5db;
+  --border-color: #D1E1F0;
   
-  --success-color: #0c4aab; 
-  --success-text: #ffffff; 
-  --success-hover: #0a3d8c;
+  --success-color: #1A4B82; 
+  --success-text: #FFFFFF; 
+  --success-hover: #2974C4;
   
   --card-radius: 12px;
   --transition-speed: 0.2s;
@@ -29,7 +29,7 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, sans-serif;
+  font-family: 'Outfit', sans-serif;
   background-color: var(--bg-color);
   color: var(--text-main);
   min-height: 100vh;
@@ -59,10 +59,10 @@ body {
 
 /* Titles */
 h2.main-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 2.3rem;
-  font-weight: 800;
-  color: #1e40af; /* Intermediate blue */
+  font-weight: 700;
+  color: #1A4B82; /* Primary blue */
   margin-bottom: 12px;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -80,7 +80,7 @@ h2.main-title {
 h2.question-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1e40af; /* Intermediate blue */
+  color: #1A4B82; /* Primary blue */
   margin-bottom: 24px;
   line-height: 1.3;
   letter-spacing: -0.01em;
@@ -88,8 +88,8 @@ h2.question-title {
 }
 h2 em strong, h2 strong em, h2.question-title em strong {
   font-style: normal;
-  font-weight: 800;
-  color: #2563eb; /* Azul intermedio */
+  font-weight: 700;
+  color: #2974C4; /* Secondary blue */
 }
 .welcome-text {
   font-size: 1rem;
@@ -108,7 +108,7 @@ h2 em strong, h2 strong em, h2.question-title em strong {
   display: block;
   font-size: 0.95rem;
   font-weight: 600;
-  color: #1e40af; /* Intermediate blue */
+  color: #1A4B82; /* Primary blue */
   margin-bottom: 8px;
 }
 input[type="text"], input[type="tel"], select {
@@ -117,7 +117,7 @@ input[type="text"], input[type="tel"], select {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   color: var(--text-main);
   background-color: #ffffff;
   transition: all var(--transition-speed);
@@ -125,7 +125,7 @@ input[type="text"], input[type="tel"], select {
 input:focus, select:focus {
   outline: none;
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(12, 74, 171, 0.15);
+  box-shadow: 0 0 0 3px rgba(26, 75, 130, 0.15);
 }
 
 /* Options */
@@ -157,7 +157,7 @@ input:focus, select:focus {
   border-color: var(--primary-color);
   border-width: 2px;
   padding: 17px 19px; /* offset the 1px border width difference */
-  background-color: #f4f8ff; 
+  background-color: #EAF2FA; 
 }
 
 /* Hide native inputs */
@@ -199,7 +199,7 @@ input:focus, select:focus {
   border-radius: 8px;
   font-size: 1.05rem;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Outfit', sans-serif;
   cursor: pointer;
   transition: all var(--transition-speed);
   text-align: center;
